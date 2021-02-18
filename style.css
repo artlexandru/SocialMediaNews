@@ -20,7 +20,7 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    gap: 1em;
+    gap: 1.2em;
     
     padding: 20px 20px 20px 20px;
     
@@ -28,7 +28,19 @@ img {
     
 }
 
-#facebook {
+.card {
+    opacity: 0.6;
+}
+
+.card.current {
+    opacity: 1;
+    
+    border-bottom: solid 30px rgb(255, 255, 255);
+  
+    
+}
+
+#facebook1, #facebook2 {
     
 
     width: 200px;
@@ -38,7 +50,7 @@ img {
     
 }
 
-#twitter {
+#twitter1, #twitter2 {
   
   
     width: 200px;
@@ -47,7 +59,7 @@ img {
     background-color: #1DA1F2;
 }
 
-#youtube {
+#youtube1, #youtube2 {
  
   
     width: 200px;
@@ -56,7 +68,7 @@ img {
     background-color: #FF0000;
 }
 
-#reddit {
+#reddit1 {
    
   
     width: 200px;
@@ -205,3 +217,57 @@ img {
     
 }
 
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 50px solid #e1d6d6;
+    border-bottom: 40px solid transparent;
+
+    margin-top: 65%;
+    
+    
+}
+
+.triangle-right:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 50px solid #e1d6d6;
+    border-bottom: 40px solid transparent;
+
+    margin-top: 65%;
+    
+}
+
+.triangle-left:hover {
+
+    transform: scale(1.2);
+
+}
+
+.mini-left {
+
+    border-top: 15px solid transparent;
+    border-right: 20px solid #333131;
+    border-bottom: 15px solid transparent;
+
+    margin-top: 0%;
+}
+
+.mini-right {
+
+    border-top: 15px solid transparent;
+    border-left: 20px solid #333131;
+    border-bottom: 15px solid transparent;
+
+    margin-top: 0%;
+}
